@@ -1,6 +1,13 @@
 @import "_button_one.scss";
 @import "_variable.scss";
 @import "_header.scss";
+@import "_image1.scss";
+
+html {
+  background-color: rgb(37, 34, 35);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
 .box1 {
   width: 80vw;

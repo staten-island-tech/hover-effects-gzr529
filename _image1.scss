@@ -1,0 +1,37 @@
+@import "_variable.scss";
+
+.factory1 {
+  height: 50rem;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 3rem auto;
+}
+
+.factory1:hover {
+  transform: translateX(10px) translateY(10px);
+  box-shadow: -10px -10px 0.5rem color(subyell);
+}
+
+.factory2 {
+  height: 50rem;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 3rem auto;
+}
+
+.factory2:hover {
+  transform: translateX(10px) translateY(10px);
+  box-shadow: -10px -10px 0.5rem color(subyell);
+}
+
+.factory3 {
+  height: 50rem;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 3rem auto;
+}
+
+.factory3:hover {
+  transform: translateX(10px) translateY(10px);
+  box-shadow: -10px -10px 0.5rem color(subyell);
+}

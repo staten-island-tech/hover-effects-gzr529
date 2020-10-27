@@ -13,8 +13,8 @@ body {
   text-decoration: none;
   background-color: #7a25ac;
   font-size: 2rem;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 3s;
+  transition: all 3s;
   position: relative;
   padding: 1vh 1vh;
   margin: 10rem auto;
@@ -62,8 +62,17 @@ body {
           box-sizing: border-box;
 }
 
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .title {
-  font-size: 30;
+  font-size: 10rem;
   text-align: left;
   margin-top: 10vh;
 }
@@ -82,6 +91,66 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.factory1 {
+  height: 50rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 3rem auto;
+}
+
+.factory1:hover {
+  -webkit-transform: translateX(10px) translateY(10px);
+          transform: translateX(10px) translateY(10px);
+  -webkit-box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+          box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+}
+
+.factory2 {
+  height: 50rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 3rem auto;
+}
+
+.factory2:hover {
+  -webkit-transform: translateX(10px) translateY(10px);
+          transform: translateX(10px) translateY(10px);
+  -webkit-box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+          box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+}
+
+.factory3 {
+  height: 50rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 3rem auto;
+}
+
+.factory3:hover {
+  -webkit-transform: translateX(10px) translateY(10px);
+          transform: translateX(10px) translateY(10px);
+  -webkit-box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+          box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+}
+
+html {
+  background-color: #252223;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .box1 {
