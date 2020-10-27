@@ -107,7 +107,10 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 5%;
-  margin: 3rem auto;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
 }
 
 .factory1:hover {
@@ -117,12 +120,17 @@ body {
           box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
 }
 
+.factory1:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
 .factory2 {
   height: 50rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 5%;
-  margin: 3rem auto;
+  margin: 10rem auto;
 }
 
 .factory2:hover {
@@ -132,12 +140,17 @@ body {
           box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
 }
 
+.factory2:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
 .factory3 {
   height: 50rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 5%;
-  margin: 3rem auto;
+  margin: 10rem auto;
 }
 
 .factory3:hover {
@@ -145,6 +158,11 @@ body {
           transform: translateX(10px) translateY(10px);
   -webkit-box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
           box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+}
+
+.factory3:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 html {
