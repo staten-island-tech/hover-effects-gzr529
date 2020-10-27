@@ -8,11 +8,13 @@
   margin-left: 10rem;
   margin-right: 10rem;
   margin-bottom: 10rem;
+  filter: blur(5px);
 }
 
 .factory1:hover {
   transform: translateX(10px) translateY(10px);
   box-shadow: -10px -10px 0.5rem color(subyell);
+  filter: blur(0px);
 }
 
 .factory1:active {
@@ -24,11 +26,13 @@
   transition: all 0.3s;
   border-radius: 5%;
   margin: 10rem auto;
+  filter: blur(5px);
 }
 
 .factory2:hover {
   transform: translateX(10px) translateY(10px);
   box-shadow: -10px -10px 0.5rem color(subyell);
+  filter: blur(0px);
 }
 
 .factory2:active {
@@ -40,11 +44,13 @@
   transition: all 0.3s;
   border-radius: 5%;
   margin: 10rem auto;
+  filter: blur(5px);
 }
 
 .factory3:hover {
   transform: translateX(10px) translateY(10px);
   box-shadow: -10px -10px 0.5rem color(subyell);
+  filter: blur(0px);
 }
 
 .factory3:active {
