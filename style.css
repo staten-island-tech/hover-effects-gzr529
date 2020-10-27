@@ -7,13 +7,50 @@ body {
           box-sizing: border-box;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
+.btnsth,
+.btnsth:link,
+.btnsth:visited {
   text-decoration: none;
-  padding: 1.5rem 4rem;
-  background-color: red;
+  background-color: #7a25ac;
+  font-size: 2rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  padding: 1vh 1vh;
+  margin: 10rem auto;
+}
+
+.btn-sthon {
+  background-color: #7a25ac;
+  color: white;
+}
+
+.btn-sthon::after {
+  background-color: #7a25ac;
+  color: white;
+}
+
+.btnsth::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btnsth:hover::after {
+  -webkit-transform: scaleX(1) scaleY(1.5);
+          transform: scaleX(1) scaleY(1.5);
+}
+
+.btnsth:active {
+  -webkit-transform: scaleX(15.5) scaleY(1.5);
+          transform: scaleX(15.5) scaleY(1.5);
 }
 
 html,
@@ -25,7 +62,29 @@ body {
           box-sizing: border-box;
 }
 
-.box {
+.title {
+  font-size: 30;
+  text-align: left;
+  margin-top: 10vh;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box1 {
   width: 80vw;
   margin: 2rem auto;
   display: -webkit-box;
