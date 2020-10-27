@@ -1,0 +1,17 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$colors: (
+  red: rgb(60, 51, 179),
+  blue: rgb(114, 18, 18),
+  green: rgb(200, 200, 57),
+  yellow: rgb(19, 104, 19),
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
