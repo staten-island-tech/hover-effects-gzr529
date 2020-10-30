@@ -2,8 +2,18 @@
 
 .title {
   font-size: 10rem;
+  font-weight: bolder;
   text-align: left;
   margin-top: 10vh;
+  background-image: url("./media/sat.gif");
+  background-clip: text;
+  color: color(subyell);
+  border-radius: 20%;
+  transition: all 1s;
+}
+
+.title:hover {
+  font-size: 15rem;
 }
 
 .header {
@@ -11,4 +21,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 1s;
 }

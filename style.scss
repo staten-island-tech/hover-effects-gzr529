@@ -1,15 +1,17 @@
 @import "_button_one.scss";
 @import "_variable.scss";
 @import "_header.scss";
-@import "_image1.scss";
+@import "_factory.scss";
+@import "_modded.scss";
 
-html {
-  background-color: rgb(37, 34, 35);
+html,
+body {
+  background-color: color(backg);
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.box1 {
+.factorybox {
   width: 80vw;
   margin: 2rem auto;
   display: flex;
@@ -19,4 +21,15 @@ html {
   font-size: 1.5rem;
   align-items: center;
   text-align: center;
+}
+
+.moddedbox {
+  position: relative;
+  margin: 3rem;
+  background-color: royalblue;
+}
+
+.moddedparent {
+  width: 60rem;
+  height: 40rem;
 }

@@ -1,0 +1,18 @@
+@import "_variable.scss";
+
+.moddedbox {
+  position: relative;
+  margin: 3rem;
+  background-color: royalblue;
+}
+
+.moddedparent {
+  width: 60rem;
+  height: 40rem;
+}
+
+.modded1,
+.modded2,
+.modded3 {
+  width: 5rem;
+}

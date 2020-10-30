@@ -1,0 +1,37 @@
+@import "_variable.scss";
+
+.factorybox {
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.factory1,
+.factory2,
+.factory3 {
+  height: 50rem;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 10rem auto;
+  filter: blur(5px);
+}
+
+.factory1:hover,
+.factory2:hover,
+.factory3:hover {
+  transform: translateX(10px) translateY(10px);
+  box-shadow: -10px -10px 0.5rem color(subyell);
+  filter: blur(0px);
+}
+
+.factory1:active,
+.factory2:active,
+.factory3:active {
+  transform: scale(1.3);
+}
