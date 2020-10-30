@@ -1,0 +1,12 @@
+@import "_button_one.scss";
+@import "_variable.scss";
+@import "_header.scss";
+@import "_factory.scss";
+@import "_modded.scss";
+
+html,
+body {
+  background-color: color(backg);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

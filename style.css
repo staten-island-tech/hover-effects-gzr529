@@ -1,0 +1,239 @@
+html,
+body {
+  font-size: 0.5rem;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btnsth,
+.btnsth:link,
+.btnsth:visited {
+  text-decoration: none;
+  background-color: #7a25ac;
+  font-size: 2rem;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  position: relative;
+  padding: 1vh 1vh;
+  margin: 10rem auto;
+}
+
+.btn-sthon {
+  background-color: #7a25ac;
+  color: white;
+}
+
+.btn-sthon::after {
+  background-color: #7a25ac;
+  color: white;
+}
+
+.btnsth::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btnsth:hover::after {
+  -webkit-transform: scaleX(1) scaleY(1.5);
+          transform: scaleX(1) scaleY(1.5);
+}
+
+.btnsth:active {
+  -webkit-transform: scaleX(15.5) scaleY(1.5);
+          transform: scaleX(15.5) scaleY(1.5);
+}
+
+html,
+body {
+  font-size: 0.5rem;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 0.5rem;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title {
+  font-size: 10rem;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 10vh;
+  background-image: url("./media/sat.gif");
+  background-clip: text;
+  background-position: center;
+  color: rgba(214, 199, 67, 0.712);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.title:hover {
+  font-size: 11rem;
+  letter-spacing: 1rem;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+html,
+body {
+  font-size: 0.5rem;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.factorybox {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.fac {
+  height: 50rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 10rem auto;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.fac:hover {
+  -webkit-transform: translateX(10px) translateY(10px);
+          transform: translateX(10px) translateY(10px);
+  -webkit-box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+          box-shadow: -10px -10px 0.5rem rgba(214, 199, 67, 0.712);
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+}
+
+.fac:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  outline: 2rem solid #7a25ac;
+  border-radius: 0%;
+}
+
+html,
+body {
+  font-size: 0.5rem;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.moddedparent {
+  width: 170rem;
+  max-width: 170rem;
+  height: 70rem;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.moddedbox {
+  position: relative;
+  margin: 3rem;
+}
+
+.mods {
+  height: 30rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.mods:hover {
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+  outline: 1rem solid #7a25ac;
+  z-index: 2;
+}
+
+.moddedbox:hover .mods:not(:hover) {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-filter: blur(1rem);
+          filter: blur(1rem);
+}
+
+.mtext {
+  position: absolute;
+  opacity: 50%;
+  font-size: 10rem;
+  width: 160rem;
+  opacity: 0%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.moddedbox:active .mtext1 {
+  opacity: 1;
+}
+
+html,
+body {
+  background-color: #252223;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

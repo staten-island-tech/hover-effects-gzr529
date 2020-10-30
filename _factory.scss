@@ -1,0 +1,33 @@
+@import "_variable.scss";
+
+.factorybox {
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.fac {
+  height: 50rem;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin: 10rem auto;
+  filter: blur(5px);
+}
+
+.fac:hover {
+  transform: translateX(10px) translateY(10px);
+  box-shadow: -10px -10px 0.5rem color(subyell);
+  filter: blur(0px);
+}
+
+.fac:active {
+  transform: scale(1.3);
+  outline: 2rem solid color(mainpurp);
+  border-radius: 0%;
+}

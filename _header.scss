@@ -1,0 +1,26 @@
+@import "_variable.scss";
+
+.title {
+  font-size: 10rem;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 10vh;
+  background-image: url("./media/sat.gif");
+  background-clip: text;
+  background-position: center;
+  color: color(subyell);
+  transition: all 0.5s;
+}
+
+.title:hover {
+  font-size: 11rem;
+  letter-spacing: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}

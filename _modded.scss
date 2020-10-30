@@ -1,0 +1,53 @@
+@import "_variable.scss";
+
+.moddedparent {
+  width: 170rem;
+  max-width: 170rem;
+  height: 70rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.moddedbox {
+  position: relative;
+  margin: 3rem;
+}
+
+.mods {
+  height: 30rem;
+  transition: all 0.5s;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.mods:hover {
+  transform: scale(1.6);
+  outline: 1rem solid color(mainpurp);
+  z-index: 2;
+}
+
+.moddedbox:hover .mods:not(:hover) {
+  transform: scale(0.9);
+  filter: blur(1rem);
+}
+
+.mods:active {
+}
+
+.mtext {
+  position: absolute;
+  opacity: 50%;
+  font-size: 10rem;
+  width: 160rem;
+  opacity: 0%;
+  transition: all 0.5s;
+}
+
+.moddedbox:active .mtext1 {
+  opacity: 1;
+}

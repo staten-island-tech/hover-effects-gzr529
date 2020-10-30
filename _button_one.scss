@@ -1,0 +1,39 @@
+@import "_variable.scss";
+
+.btnsth,
+.btnsth:link,
+.btnsth:visited {
+  text-decoration: none;
+  background-color: color(mainpurp);
+  font-size: 2rem;
+  transition: all 3s;
+  position: relative;
+  padding: 1vh 1vh;
+  margin: 10rem auto;
+}
+.btn-sthon {
+  background-color: color(mainpurp);
+  color: white;
+}
+.btn-sthon::after {
+  background-color: color(mainpurp);
+  color: white;
+}
+
+.btnsth::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s;
+}
+.btnsth:hover::after {
+  transform: scaleX(1) scaleY(1.5);
+}
+.btnsth:active {
+  transform: scaleX(15.5) scaleY(1.5);
+}

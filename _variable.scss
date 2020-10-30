@@ -1,0 +1,17 @@
+html,
+body {
+  font-size: 0.5rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$colors: (
+  mainpurp: rgb(122, 37, 172),
+  subyell: rgba(214, 199, 67, 0.712),
+  backg: rgb(37, 34, 35),
+  title: rgb(0, 0, 0),
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
