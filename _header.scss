@@ -7,13 +7,14 @@
   margin-top: 10vh;
   background-image: url("./media/sat.gif");
   background-clip: text;
+  background-position: center;
   color: color(subyell);
-  border-radius: 20%;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .title:hover {
-  font-size: 15rem;
+  font-size: 11rem;
+  letter-spacing: 1rem;
 }
 
 .header {
